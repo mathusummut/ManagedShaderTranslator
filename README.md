@@ -1,2 +1,3 @@
 # ManagedShaderTranslator
-An SLSharp GUI front-end for shader development
+
+An SLSharp GUI utility for shader development

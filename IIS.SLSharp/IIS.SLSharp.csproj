@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECF58025-4591-4708-8EC9-4B95A5673DDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IIS.SLSharp</RootNamespace>
+    <AssemblyName>IIS.SLSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\IIS.SLSharp.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1591</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\IIS.SLSharp.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Annotations\FragmentShaderAttribute.cs" />
+    <Compile Include="Annotations\UndefinedBehaviorAttribute.cs" />
+    <Compile Include="Annotations\VertexInAttribute.cs" />
+    <Compile Include="Annotations\IShaderAttribute.cs" />
+    <Compile Include="Annotations\FragmentOutAttribute.cs" />
+    <Compile Include="Annotations\UniformAttribute.cs" />
+    <Compile Include="Annotations\VaryingAttribute.cs" />
+    <Compile Include="Annotations\VertexShaderAttribute.cs" />
+    <Compile Include="Annotations\WarningAttribute.cs" />
+    <Compile Include="Bindings\Binding.cs" />
+    <Compile Include="Bindings\IProgram.cs" />
+    <Compile Include="Bindings\ISLSharpBinding.cs" />
+    <Compile Include="Descriptions\FunctionDescription.cs" />
+    <Compile Include="Descriptions\SourceDescription.cs" />
+    <Compile Include="Descriptions\VariableDescription.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="OpenTK\Bindings.cs" />
+    <Compile Include="OpenTK\GpuStopwatch.cs" />
+    <Compile Include="OpenTK\Program.cs" />
+    <Compile Include="OpenTK\Quad.cs" />
+    <Compile Include="OpenTK\Textures\FramebufferObject.cs" />
+    <Compile Include="OpenTK\Textures\ITexture.cs" />
+    <Compile Include="OpenTK\Textures\RenderbufferObject.cs" />
+    <Compile Include="OpenTK\Textures\RenderToTexture.cs" />
+    <Compile Include="OpenTK\Textures\Texture1D.cs" />
+    <Compile Include="OpenTK\Textures\Texture2D.cs" />
+    <Compile Include="OpenTK\Textures\TextureBase.cs" />
+    <Compile Include="OpenTK\Textures\TextureCube.cs" />
+    <Compile Include="OpenTK\Utilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflection\ReflectionMarkerAttribute.cs" />
+    <Compile Include="Reflection\ReflectionToken.cs" />
+    <Compile Include="Runtime\ResourceManager.cs" />
+    <Compile Include="Shaders\AttributeHelper.cs" />
+    <Compile Include="Shaders\Shader.Context.cs" />
+    <Compile Include="Shaders\Shader.cs" />
+    <Compile Include="Shaders\ShaderDefinition.BooleanVector.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Cecil.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Common.cs" />
+    <Compile Include="Shaders\ShaderDefinition.cs" />
+    <Compile Include="Annotations\ShaderVariableAttribute.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Derivative.cs" />
+    <Compile Include="Shaders\ShaderDefinition.DoubleMatrix.cs" />
+    <Compile Include="Shaders\ShaderDefinition.DoubleVector.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Exponential.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Geometric.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Integer.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Interpolation.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Int32Vector.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Matrix.cs" />
+    <Compile Include="Shaders\ShaderDefinition.MatrixFunctions.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Noise.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Sampler.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Special.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Texture.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Trigonometry.cs" />
+    <Compile Include="Shaders\ShaderDefinition.UInt32Vector.cs" />
+    <Compile Include="Shaders\ShaderDefinition.Packing.cs" />
+    <Compile Include="Shaders\ShaderDefinition.SingleVector.cs" />
+    <Compile Include="ShaderType.cs" />
+    <Compile Include="SLSharpException.cs" />
+    <Compile Include="Translation\GLSL\Workarounds\Exponential.cs" />
+    <Compile Include="Translation\HLSL\Workarounds\Exponential.cs" />
+    <Compile Include="Translation\HLSL\Workarounds\Trigonometric.cs" />
+    <Compile Include="Translation\VisitorBase.Abstract.cs" />
+    <Compile Include="Translation\VisitorBase.cs" />
+    <Compile Include="Translation\VisitorBase.ShaderDef.cs" />
+    <Compile Include="Translation\GLSL\GlslSourceBuilder.cs" />
+    <Compile Include="Translation\GLSL\GlslTransform.cs" />
+    <Compile Include="Translation\GLSL\GlslVisitor.cs" />
+    <Compile Include="Translation\GLSL\GlslVisitor.ShaderDef.cs" />
+    <Compile Include="Translation\GLSL\GlslVisitor.Unimplemented.cs" />
+    <Compile Include="Translation\GLSL\Workarounds\Trigonometric.cs" />
+    <Compile Include="Translation\HLSL\HlslSourceBuilder.cs" />
+    <Compile Include="Translation\HLSL\HlslVisitor.Unimplemented.cs" />
+    <Compile Include="Translation\HLSL\HlslVisitor.ShaderDef.cs" />
+    <Compile Include="Translation\VisitorBase.Illegal.cs" />
+    <Compile Include="Translation\VisitorBase.Unsupported.cs" />
+    <Compile Include="Translation\HLSL\HlslVisitor.cs" />
+    <Compile Include="Translation\HLSL\HlslTransform.cs" />
+    <Compile Include="Translation\ITransform.cs" />
+    <Compile Include="Translation\RenameLocals.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.Decompiler">
+      <HintPath>..\ICSharpCode.Decompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory, Version=1.0.4157.16067, Culture=neutral, PublicKeyToken=1beefbfdfd5fca14, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil, Version=0.9.4.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

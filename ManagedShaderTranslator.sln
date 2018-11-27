@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedShaderTranslator", "ManagedShaderTranslator\ManagedShaderTranslator.csproj", "{864D2D51-20E6-493A-9219-56E059B92EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIS.SLSharp", "IIS.SLSharp\IIS.SLSharp.csproj", "{ECF58025-4591-4708-8EC9-4B95A5673DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexShaderExample", "ComplexShaderExample\ComplexShaderExample.csproj", "{E3DCD10A-993F-431B-9BCA-63997F68F52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoClipmapExample", "GeoClipmapExample\GeoClipmapExample.csproj", "{A44CFBAB-B76F-4458-BF71-908911163917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleShaderExample", "SimpleShaderExample\SimpleShaderExample.csproj", "{2BD44DA8-AEA2-4AC5-AC86-C5047FF28917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864D2D51-20E6-493A-9219-56E059B92EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864D2D51-20E6-493A-9219-56E059B92EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864D2D51-20E6-493A-9219-56E059B92EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864D2D51-20E6-493A-9219-56E059B92EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF58025-4591-4708-8EC9-4B95A5673DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF58025-4591-4708-8EC9-4B95A5673DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF58025-4591-4708-8EC9-4B95A5673DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF58025-4591-4708-8EC9-4B95A5673DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DCD10A-993F-431B-9BCA-63997F68F52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DCD10A-993F-431B-9BCA-63997F68F52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DCD10A-993F-431B-9BCA-63997F68F52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DCD10A-993F-431B-9BCA-63997F68F52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44CFBAB-B76F-4458-BF71-908911163917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44CFBAB-B76F-4458-BF71-908911163917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44CFBAB-B76F-4458-BF71-908911163917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44CFBAB-B76F-4458-BF71-908911163917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD44DA8-AEA2-4AC5-AC86-C5047FF28917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD44DA8-AEA2-4AC5-AC86-C5047FF28917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD44DA8-AEA2-4AC5-AC86-C5047FF28917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD44DA8-AEA2-4AC5-AC86-C5047FF28917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
